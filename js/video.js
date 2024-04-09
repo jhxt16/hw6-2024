@@ -115,6 +115,15 @@ window.addEventListener("load", function() {
         // Remove the 'oldSchool' class from the video
         video.classList.remove("oldSchool");
     });
+
+    // Get the vintage button element
+    var vintageButton = document.getElementById("vintage");
+
+    // Add an event listener to the vintage button
+    vintageButton.addEventListener("click", function() {
+        // Add the 'oldSchool' class to the video
+        video.classList.add("oldSchool");
+    });
 });
 
 
